@@ -6,7 +6,12 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake", "~> 13.0"
+gem "concurrent-ruby", "~> 1.3.4"
 
-gem "rspec", "~> 3.0"
 
 # gem "standard", "~> 1.3"
+
+group :test do
+  gem "rspec", "~> 3.0"
+  gem 'webmock', '~> 3.14'
+end
