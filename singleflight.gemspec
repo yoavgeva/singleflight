@@ -12,15 +12,15 @@ Gem::Specification.new do |spec|
   spec.description = "Its primary purpose is to ensure that only one call to an expensive or duplicative operation is in flight at any given time.
    When multiple requests request the same resource, singleflight ensures that the function is executed only once, and the result is shared among all callers.
    This pattern is particularly useful in scenarios where caching isn't suitable or when the results are expected to change frequently."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/yoavgeva/singleflight"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
   spec.platform = Gem::Platform::RUBY
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = spec.homepage + '/blob/main/CHANGELOG.md',
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
