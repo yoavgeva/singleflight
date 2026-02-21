@@ -15,7 +15,7 @@ GEM
     hashdiff (1.0.1)
     public_suffix (5.0.0)
     rake (13.0.6)
-    rexml (3.3.9)
+    rexml (3.4.2)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
